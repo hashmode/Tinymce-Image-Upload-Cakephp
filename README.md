@@ -7,7 +7,7 @@ Allows to upload images(and other files) in tinymce. Can be a free alternative f
 
 ## Source Plugins
 1. Tinymce 4.0.1 http://www.tinymce.com/download/download.php (not included in Plugin, should be downloaded and installed separately) 
-2. Elfinder 2.0-rc1 http://elfinder.org/
+2. Elfinder 2.0-rc1 http://elfinder.org/ (already included in plugin)
 
 ## Installation
 
