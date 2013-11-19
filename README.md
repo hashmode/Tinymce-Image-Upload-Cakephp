@@ -47,6 +47,9 @@ For cake version 2.4 and above in config file use `Router::fullbaseUrl()`, other
 All the rest options are the elfinder plugin options 
 https://github.com/Studio-42/elFinder/wiki/Connector-configuration-options
 
+## IMPORTANT
+If you get some error and than fix it be sure to empty the browser's Cache: CTRL + F5 will NOT help, perhaps because of iframes.
+
 ## License
 Plugin per se is completely free to use in any application(including commercial) or to modify, merge, copy, distribute etc. unless these actions are not restricted by the source plugins' (Tinymce and Elfinder) license terms.
 
