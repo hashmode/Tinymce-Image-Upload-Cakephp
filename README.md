@@ -6,7 +6,7 @@ Integration of Elfinder file manager(2.0-rc1) with tinymce(c) for Cakephp 2.x.
 Allows to upload images(and other files) in tinymce. Can be a free alternative for Tinymce MoxieManager image upload plugin
 
 ## Source Plugins
-1. Tinymce 4.0.1 http://www.tinymce.com/download/download.php (not included in Plugin, should be downloaded and installed) 
+1. Tinymce 4.0.1 http://www.tinymce.com/download/download.php (not included in Plugin, should be downloaded and installed separately) 
 2. Elfinder 2.0-rc1 http://elfinder.org/
 
 ## Installation
@@ -22,10 +22,8 @@ $components => array('TinymceElfinder.TinymceElfinder');
 ```
 
 4. In tinymce init add `file_browser_callback:elFinderBrowser`, and before the script tag(or file), where the tinymce init is located, add this 
+`<?php $this->TinymceElfinder->defineElfinderBrowser()?>`
 
-```
-<?php $this->TinymceElfinder->defineElfinderBrowser()?>
-```
 5. Create 2 functions in your controller,  
 ```
 	public function elfinder() {
@@ -38,6 +36,7 @@ $components => array('TinymceElfinder.TinymceElfinder');
 
   and replace my_controller with your controller's name in `elfinder.php` config file
 
+
 6. Create folder `Uploads` under `webroot/img`(default, can be changed from elfinder.php)
 
 ## Options
@@ -46,7 +45,8 @@ In elfinder.php config file
 For cake version 2.4 and above in config file use `Router::fullbaseUrl()`, otherwise `FULL_BASE_URL`
 
 
-
+## License
+Plugin per se is completely free to use in any application(including commercial) or to modify, merge, copy, distribute etc. unless these actions are not restricted by the source plugins' (Tinymce and Elfinder) license terms.
 
 
 
