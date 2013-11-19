@@ -44,6 +44,8 @@ In elfinder.php config file
 `window_url` and  `connector_url` - are the urls by which the file manager window and connector are called, should be according to in which controller you create `elfinder()` and `connector()` functions(these can be changed as well), as described in 5th step.
 For cake version 2.4 and above in config file use `Router::fullbaseUrl()`, otherwise `FULL_BASE_URL`
 
+All the rest options are the elfinder plugin options 
+https://github.com/Studio-42/elFinder/wiki/Connector-configuration-options
 
 ## License
 Plugin per se is completely free to use in any application(including commercial) or to modify, merge, copy, distribute etc. unless these actions are not restricted by the source plugins' (Tinymce and Elfinder) license terms.
