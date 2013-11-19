@@ -17,8 +17,8 @@ Considers that tinymce is already installed
 2. Copy `elfinder.php` config file into `app/Config` folder
 3. Add the helper and component in your controller 
 ```
-$helpers => array('TinymceElfinder.TinymceElfinder');
-$components => array('TinymceElfinder.TinymceElfinder');
+public $helpers = array('TinymceElfinder.TinymceElfinder');
+public $components = array('TinymceElfinder.TinymceElfinder');
 ```
 
 4. In tinymce init add `file_browser_callback:elFinderBrowser`, and before the script tag(or file), where the tinymce init is located, add this 
