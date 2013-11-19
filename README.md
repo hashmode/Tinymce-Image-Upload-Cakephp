@@ -24,7 +24,7 @@ $components => array('TinymceElfinder.TinymceElfinder');
 4. In tinymce init add `file_browser_callback:elFinderBrowser`, and before the script tag(or file), where the tinymce init is located, add this 
 
 ```
-<?php echo $this->TinymceElfinder->defineElfinderBrowser()?>
+<?php $this->TinymceElfinder->defineElfinderBrowser()?>
 ```
 5. Create 2 functions in your controller,  
 ```
