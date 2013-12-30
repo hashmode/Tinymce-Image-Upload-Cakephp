@@ -14,12 +14,12 @@ $config = array (
  * 
  * window_url - the url by which the elfinder window is called
  * if we set 'window_url' => Router::fullbaseUrl().'/posts/elfinderWindow',
- *  		 'connector_url' => Router::fullbaseUrl().'/posts/elfinderWindow',
+ *  		 'connector_url' => Router::fullbaseUrl().'/posts/elfinderConnector',
  * than we should create actions elfinderWindow and elfinderConnector in posts controller like this
  * public function elfinderWindow() {
  * 		$this->TinymceElfinder->elfinder();
  * }
- * public function elfinderWindow() {
+ * public function elfinderConnector() {
  * 		$this->TinymceElfinder->connector();
  * }
  *  			
