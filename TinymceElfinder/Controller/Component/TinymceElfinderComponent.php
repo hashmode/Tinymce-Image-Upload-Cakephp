@@ -40,7 +40,7 @@ App::uses('elFinderVolumeLocalFileSystem', 'TinymceElfinder.Lib', array('file'=>
 class TinymceElfinderComponent extends Component {
 	public $controller = null;
 	
-	public function initialize(Controller &$controller) {
+	public function initialize(Controller $controller) {
 		$this->controller = $controller;
 	}	
 	
