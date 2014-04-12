@@ -10,6 +10,8 @@ Allows to upload images(and other files) in tinymce. Can be a free alternative f
 2. Elfinder 2.0-rc1 http://elfinder.org/ (already included in plugin)
 
 This Cake plugin was developed by http://hashmode.com
+Video Demonstration - http://hashmode.com/tinymce-image-upload-cakephp/38
+
 
 ## Installation
 
