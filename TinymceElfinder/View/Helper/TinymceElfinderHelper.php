@@ -1,10 +1,9 @@
 <?php 
 App::uses('AppHelper', 'View/Helper');
 class TinymceElfinderHelper extends AppHelper {
-	public function defineElfinderBrowser() {
+	public function defineElfinderBrowser($inline = true) {
 		Configure::load('elfinder');
-		echo '
-		<script type="text/javascript">
+		$script = '
 		function elFinderBrowser (field_name, url, type, win) {
 			  tinymce.activeEditor.windowManager.open({
 			    file: "'.Configure::read('Elfinder.window_url').'",
@@ -19,7 +18,8 @@ class TinymceElfinderHelper extends AppHelper {
 			  });
 			  return false;
 			}
-		</script>';	
-			
+		';
+		if ($inline) echo '<script type="text/javascript">' . $script . '</script>';
+		return $script;
 	}
 }
