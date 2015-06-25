@@ -1,0 +1,26 @@
+{
+	"name": "hashmode/Tinymce-Image-Upload-Cakephp",
+	"description": "Integration of Elfinder file manager(2.0-rc1) with tinymce(4.0.10) for Cakephp 2.x",
+	"type": "cakephp-plugin",
+	"keywords": ["cakephp","tinymce", "image upload", "hashmode", "tinymce-image-upload-cakephp"],
+	"homepage": "http://hashmode.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Hashmode",
+			"email": "hashmodecom@gmail.com",
+			"homepage": "http://hashmode.com"
+		}
+	],
+	"support": {
+		"email": "hashmodecom@gmail.com",
+		"issues": "https://github.com/hashmode/Tinymce-Image-Upload-Cakephp/issues",
+		"wiki": "https://github.com/hashmode/Tinymce-Image-Upload-Cakephp/blob/master/README.md",
+		"irc": "irc://irc.freenode.org/cakephp",
+		"source": "https://github.com/hashmode/Tinymce-Image-Upload-Cakephp"
+	},
+	"require": {
+		"php": ">=5.2.8",
+		"composer/installers": "*"
+	}
+}
