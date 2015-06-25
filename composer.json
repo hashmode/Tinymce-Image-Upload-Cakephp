@@ -31,6 +31,6 @@
 		"composer/installers": "*"
 	},
 	"extra": {
-		"installer-name": "TinyMceElFinder"
+		"installer-name": "TinymceElFinder"
 	}
 }
