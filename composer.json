@@ -29,8 +29,5 @@
 	"require": {
 		"php": ">=5.2.8",
 		"composer/installers": "*"
-	},
-	"extra": {
-		"installer-name": "TinymceElFinder"
 	}
 }
