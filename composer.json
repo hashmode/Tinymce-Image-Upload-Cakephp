@@ -1,9 +1,15 @@
 {
-	"name": "hashmode/Tinymce-Image-Upload-Cakephp",
+	"name": "slamkajs/Tinymce-Image-Upload-Cakephp",
   	"version": "1.0",
 	"description": "Integration of Elfinder file manager(2.0-rc1) with tinymce(4.0.10) for Cakephp 2.x",
 	"type": "cakephp-plugin",
-	"keywords": ["cakephp","tinymce", "image upload", "hashmode", "tinymce-image-upload-cakephp"],
+	"keywords": [
+		"cakephp",
+		"tinymce",
+		"image upload",
+		"hashmode",
+		"tinymce-image-upload-cakephp"
+	],
 	"homepage": "http://hashmode.com",
 	"license": "MIT",
 	"authors": [
