@@ -2,10 +2,10 @@ Tinymce-Image-Upload-Cakephp
 ============================
 
 
-Integration of Elfinder file manager(2.0-rc1) with tinymce(4.0.10) for Cakephp 2.x.
+Integration of Elfinder file manager(2.0-rc1) with tinymce(4.0.10) for **Cakephp 2.x**.
 Allows to upload images(and other files) in tinymce. Can be a free alternative for Tinymce MoxieManager image upload plugin
 
-For Cakephp 3.x check https://github.com/hashmode/cakephp-tinymce-elfinder
+For **Cakephp 3.x** check https://github.com/hashmode/cakephp-tinymce-elfinder
 
 ## Source Plugins
 1. Tinymce 4.0.1 http://www.tinymce.com/download/download.php (not included in Plugin, should be downloaded and installed separately) 
